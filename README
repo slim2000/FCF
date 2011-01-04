@@ -1,0 +1,5 @@
+Deployment Instructions
+
+1. Drop the entire contents of the FCF directory into the root of the site
+2. Create necessary symlinks for SEO friendly URLs to the various .html files in root
+3. Confirm http://yourrootdomain.com/sitemap.xml is accessible
