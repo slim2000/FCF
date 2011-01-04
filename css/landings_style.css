@@ -1,0 +1,1259 @@
+/* common css for landing pages */
+
+
+/* ******** Body Classes ******** */
+
+body {
+	margin: 0 auto;
+	padding: 0;	
+	text-align: center;
+}
+
+.local1 {
+	background: url(../images/local1/bg.jpg) top center fixed no-repeat;
+	font-family: Trebuchet MS, Arial, Helvetica, sans serif;
+}
+
+.grocery1 {
+	background: url(../images/grocery1/bg.jpg) top center fixed no-repeat;
+	font-family: Georgia, Times New Roman, serif;
+}
+
+.meats1 {
+	background: url(../images/meats1/bg.jpg) top center fixed no-repeat;
+	font-family: Georgia, Times New Roman, serif;
+}
+
+.dairy1 {
+	background: url(../images/dairy1/bg.jpg) top center fixed no-repeat;
+	font-family: Georgia, Times New Roman, serif;
+}
+
+.fruit1 {
+	background: url(../images/fruit1/bg.jpg) top center fixed no-repeat;
+	font-family: Georgia, Times New Roman, serif;
+}
+
+
+/* ******** Local Delivery 1 ******** */
+
+.local1 #wrapper {
+	position: relative;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 800px;
+}
+
+.local1 #header {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+
+.local1 #banner {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+
+.local1 #content {
+	clear: both;
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 800px;
+	background-color: #fff;
+}
+
+.local1 #content-left {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 0 20px 0 30px;
+	text-align: left;
+	background-color: #fff;
+}
+
+.local1 #content-right {
+	position: relative;
+	float: left;
+	width: 330px;
+	padding-left: 20px;
+	text-align: left;
+	background-color: #fff;
+}
+
+.local1 #box {
+	position: absolute;
+	top: 160px;
+	left: 25px;
+}
+
+.local1 h1 {
+	font-size: 28px;
+	color: #cc6633;
+	font-weight: normal;
+}
+
+.local1 h2 {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+.local1 .action {
+	font-size: 32px;
+	color: #679146;
+	line-height: 1.2em;
+	margin-top: 20px;
+}
+
+.local1 p {
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+.local1 a:link, .local1 a:visited {
+	color: #669933;
+}
+
+.local1 .tight {
+	letter-spacing: -1px;
+}
+
+.local1 #footer {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 790px;
+	text-align: left;
+	background-color: #fff;
+	margin: 0 0 30px 0;
+	padding: 0 10px 0 0;
+	color: #333123;
+}
+
+.local1 #footer img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.local1 #footer p {
+	line-height: 1.5em;
+	font-size: 13px;
+}
+
+.local1 #footer a {
+	color: #5c2946;
+}
+
+.local1 #footer a:hover {
+	color: #679146;
+}
+
+.local1 .footer-links {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+
+/* ******** Online Grocery 1 ******** */
+
+.grocery1 #wrapper {
+	position: relative;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 800px;
+}
+
+.grocery1 #header {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+
+.grocery1 #banner {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 169px;
+	text-align: center;
+	background: url(../images/grocery1/banner.jpg) top right no-repeat;
+	text-align: left;
+}
+
+.grocery1 #banner h1 {
+	font-family: Arial, Helvetica, sans serif;
+	color: #5c2946;
+	display: block;
+	padding: 25px 0 0 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.grocery1 #content {
+	clear: both;
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 800px;
+	background-color: #fff;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+
+.grocery1 #content-midbanner {
+	background: url(../images/grocery1/midbanner_bg.jpg) top center no-repeat;
+	text-align: left;
+	height: 327px;
+	padding: 0 250px;
+	margin-top: 12px;
+}
+
+.grocery1 #content-midbanner h2 {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 28px;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	padding-top: 6px;
+}
+
+.grocery1 #content-midbanner ul {
+	color: #333123;
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+
+.grocery1 #content-midbanner ul li {
+	margin-bottom: 7px;
+}
+
+.grocery1 .content-left {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 0 20px 0 30px;
+	text-align: left;
+	background-color: #fff;
+}
+
+.grocery1 .content-right {
+	position: relative;
+	float: left;
+	width: 310px;
+	text-align: left;
+	background-color: #fff;
+}
+
+.grocery1 .content-right ul {
+	color: #333123;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-top: 10px;
+}
+
+.grocery1 .content-right ul li {
+	margin-bottom: 7px;
+}
+
+.grocery1 .content-right-narrow {
+	position: relative;
+	float: left;
+	width: 200px;
+	padding: 0 130px 20px 0;
+	text-align: center;
+	background-color: #fff;
+}
+
+.grocery1 .content-fullpg {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 770px;
+	text-align: center;
+	background-color: #fff;
+	margin: 0 15px;
+}
+
+.grocery1 #box {
+	position: absolute;
+	top: 0;
+	left: 190px;
+}
+
+.grocery1 h1 {
+	font-size: 28px;
+	color: #cc6633;
+	font-weight: normal;
+}
+
+.grocery1 h2 {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+.grocery1 .online {
+	color: #5c2946;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 1.2em;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	padding: 5px 40px;
+	font-family: Arial, Helvetica, sans serif;
+}
+
+.grocery1 .action {
+	font-size: 28px;
+	color: #679146;
+	line-height: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.grocery1 .feelgood {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.2em;
+	margin-bottom: -5px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.grocery1 .artisan {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 21px;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 13px 55px;
+}
+
+.grocery1 p {
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #333123;
+}
+
+.grocery1 .small {
+	font-size: 80%;
+}
+
+.grocery1 .guarantee {
+	color: #f3901d;
+	font-size: 21px;
+	font-style: italic;
+	line-height: 1em;
+	margin-top: 10px;
+}
+
+.grocery1 .promo {
+	font-size: 80%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.grocery1 .tight {
+	letter-spacing: -1px;
+}
+
+.grocery1 #footer {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 750px;
+	text-align: left;
+	background-color: #fff;
+	margin: 0 0 30px 30px;
+	color: #333123;
+}
+
+.grocery1 #footer img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.grocery1 #footer p {
+	line-height: 1.5em;
+	font-size: 13px;
+}
+
+.grocery1 #footer a {
+	color: #5c2946;
+}
+
+.grpcery1 #footer a:hover {
+	color: #679146;
+}
+
+.grocery1 .footer-links {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+
+
+/* ******** Meats 1 ******** */
+
+.meats1 h1 {
+	font-size: 28px;
+	color: #cc6633;
+	font-weight: normal;
+}
+
+.meats1 h2 {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+.meats1 p {
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #333123;
+}
+
+.meats1 ul {
+	color: #333123;
+}
+
+.meats1 li {
+	margin-bottom: 5px;
+}
+
+.meats1 #wrapper {
+	position: relative;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 800px;
+}
+
+.meats1 #header {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+
+.meats1 #banner {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 169px;
+	text-align: center;
+	background: url(../images/meats1/banner.jpg) top right no-repeat;
+	text-align: left;
+}
+
+.meats1 #banner h1 {
+	font-family: Arial, Helvetica, sans serif;
+	color: #5c2946;
+	display: block;
+	padding: 25px 0 0 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.meats1 #content {
+	clear: both;
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 800px;
+	background-color: #fff;
+	padding-bottom: 30px;
+	margin-bottom: 50px;
+}
+
+.meats1 #content-midbanner {
+	background: url(../images/meats1/midbanner_bg.jpg) top center no-repeat;
+	text-align: left;
+	height: 327px;
+	padding: 0 250px;
+}
+
+.meats1 #content-midbanner h2 {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 28px;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	padding-top: 13px;
+}
+
+.meats1 #content-midbanner ul {
+	color: #333123;
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+
+.meats1 #content-midbanner ul li {
+	margin-bottom: 7px;
+}
+
+.meats1 .content-left {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 0 20px 0 30px;
+	text-align: left;
+}
+
+.meats1 .content-right {
+	position: relative;
+	float: left;
+	width: 330px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.meats1 .content-right h2 {
+	margin-top: 15px;
+}
+
+.meats1 .content-right ul {
+	color: #333123;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-top: 10px;
+}
+
+.meats1 .content-right ul li {
+	margin-bottom: 7px;
+}
+
+.meats1 .content-fullpg {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 770px;
+	text-align: center;
+	background-color: #fff;
+	margin: 0 15px;
+}
+
+.meats1 #bottom  {
+	clear: both;
+	position: relative;
+	float: left;
+	background: url(../images/meats1/bg_bottom.jpg) top center no-repeat;
+	height: 380px;
+	padding-top: 10px;
+}
+
+.meats1 .bottom-row {
+	clear: both;
+}
+
+.meats1 .content-col1 {
+	position: relative;
+	float: left;
+	width: 250px;
+	padding-left: 30px;
+	text-align: left;
+	font-style: italic;
+}
+
+.meats1 .content-col2 {
+	position: relative;
+	float: left;
+	width: 280px;
+	text-align: left;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.meats1 .content-col3 {
+	position: relative;
+	float: left;
+	width: 210px;
+} 
+
+.meats1 .online {
+	color: #5c2946;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 1.2em;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	padding: 5px 40px;
+	font-family: Arial, Helvetica, sans serif;
+}
+
+.meats1 .action {
+	font-size: 28px;
+	color: #679146;
+	line-height: 1em;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.meats1 .feelgood {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.2em;
+	margin-bottom: -5px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.meats1 .artisan {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 21px;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 13px 55px;
+}
+
+.meats1 .small {
+	font-size: 80%;
+}
+
+.meats1 .guarantee {
+	color: #f3901d;
+	font-size: 22px;
+	font-style: italic;
+	line-height: 1em;
+	margin-top: 10px;
+}
+
+.meats1 .promo {
+	font-size: 80%;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.meats1 .tight {
+	letter-spacing: -1px;
+}
+
+.meats1 #footer {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 750px;
+	text-align: left;
+	background-color: #fff;
+	margin: 0 0 30px 30px;
+	color: #333123;
+}
+
+.meats1 #footer img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.meats1 #footer p {
+	line-height: 1.5em;
+	font-size: 13px;
+}
+
+.meats1 #footer a {
+	color: #5c2946;
+}
+
+.meats1 #footer a:hover {
+	color: #679146;
+}
+
+.meats1 .footer-links {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+
+/* ******** Milk & Dairy 1 ******** */
+
+.dairy1 h1 {
+	font-size: 24px;
+	color: #cc6633;
+	font-weight: normal;
+}
+
+.dairy1 h2 {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+.dairy1 p {
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #333123;
+}
+
+.dairy1 ul {
+color: #683d1a;
+	line-height: 1.4em;
+}
+
+.dairy1 li {
+	margin-bottom: 5px;
+}
+
+.dairy1 #wrapper {
+	position: relative;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 800px;
+}
+
+.dairy1 #header {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+
+.dairy1 #banner {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 169px;
+	text-align: center;
+	background: url(../images/dairy1/banner.jpg) top right no-repeat;
+	text-align: left;
+}
+
+.dairy1 #banner h1 {
+	font-family: Arial, Helvetica, sans serif;
+	color: #5c2946;
+	display: block;
+	padding: 25px 0 0 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.dairy1 #banner2 {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 169px;
+	text-align: center;
+	background: url(../images/dairy1/banner2.jpg) top right no-repeat;
+	text-align: left;
+}
+
+.dairy1 #banner2 h1 {
+	font-family: Arial, Helvetica, sans serif;
+	color: #5c2946;
+	display: block;
+	padding: 25px 0 0 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.dairy1 #content {
+	clear: both;
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 800px;
+	background-color: #fff;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.dairy1 .content-left {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 10px 20px 0 24px;
+	text-align: left;
+}
+
+.dairy1 .content-right {
+	position: relative;
+	float: left;
+	width: 330px;
+	text-align: left;
+	padding-bottom: 0;
+}
+
+.dairy1 .content-right h2 {
+	margin-top: 20px;
+}
+
+.dairy1 .content-right ul {
+	color: #333123;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-top: 10px;
+}
+
+.dairy1 .content-right ul li {
+	margin-bottom: 7px;
+}
+
+.dairy1 .content-fullpg {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 770px;
+	text-align: center;
+	background-color: #fff;
+	margin: 0 5px;
+}
+
+.dairy1 .bottom  {
+	clear: both;
+	position: relative;
+	float: left;
+	background: url(../images/meats1/bg_bottom.jpg) top center no-repeat;
+	/*height: 380px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 790px;
+}
+
+.dairy1 .bottom-row {
+	clear: both;
+	padding-top: 10px;
+}
+
+.dairy1 .content-col1 {
+	position: relative;
+	float: left;
+	width: 260px;
+	text-align: left;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.dairy1 .content-col2 {
+	position: relative;
+	float: left;
+	width: 280px;
+	text-align: left;
+	padding-right: 20px;
+	font-size: 14px;
+}
+
+.dairy .content-col2 ul {
+	color: #683d1a;
+}
+
+.dairy1 .content-col3 {
+	position: relative;
+	float: left;
+	width: 205px;
+} 
+
+.dairy1 .online {
+	color: #5c2946;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	padding: 0 40px;
+	font-family: Arial, Helvetica, sans serif;
+}
+
+.dairy1 .action {
+	font-size: 28px;
+	color: #679146;
+	line-height: 1em;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.dairy1 .feelgood {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.2em;
+	margin-bottom: -5px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.dairy1 .artisan {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 21px;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 13px 55px;
+}
+
+.dairy1 .small {
+	font-size: 80%;
+}
+
+.dairy1 .guarantee {
+	color: #f3901d;
+	font-size: 22px;
+	font-style: italic;
+	line-height: 1em;
+	margin-top: 10px;
+}
+
+.dairy1 .promo {
+	font-size: 80%;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+.dairy1 .tight {
+	letter-spacing: -1px;
+}
+
+.dairy1 #footer {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 750px;
+	text-align: left;
+	background-color: #fff;
+	margin: 0 0 30px 30px;
+	color: #333123;
+}
+
+.dairy1 #footer img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.dairy1 #footer p {
+	line-height: 1.5em;
+	font-size: 13px;
+}
+
+.dairy1 #footer a {
+	color: #5c2946;
+}
+
+.dairy1 #footer a:hover {
+	color: #679146;
+}
+
+.dairy1 .footer-links {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+
+/* ******** Fruit 1 ******** */
+
+.fruit1 h1 {
+	font-size: 28px;
+	color: #cc6633;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+.fruit1 h2 {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+.fruit1 p {
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #333123;
+}
+
+.fruit1 ul {
+color: #683d1a;
+	line-height: 1.4em;
+}
+
+.fruit1 li {
+	margin-bottom: 5px;
+}
+
+.fruit1 #wrapper {
+	position: relative;
+	margin: 0 auto;
+	background-color: #fff;
+	width: 800px;
+}
+
+.fruit1 #header {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+}
+
+.fruit1 #banner {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 169px;
+	text-align: center;
+	background: url(../images/fruit1/banner.jpg) top right no-repeat;
+	text-align: left;
+}
+
+.fruit1 #banner h1 {
+	font-family: Arial, Helvetica, sans serif;
+	color: #5c2946;
+	display: block;
+	padding: 25px 0 0 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.fruit1 #banner2 {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 169px;
+	text-align: center;
+	background: url(../images/dairy1/banner2.jpg) top right no-repeat;
+	text-align: left;
+}
+
+.fruit1 #banner2 h1 {
+	font-family: Arial, Helvetica, sans serif;
+	color: #5c2946;
+	display: block;
+	padding: 25px 0 0 40px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 10px;
+	font-size: 24px;
+}
+
+.fruit1 #content {
+	clear: both;
+	position: relative;
+	text-align: center;
+	float: left;
+	width: 800px;
+	background-color: #fff;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.fruit1 .content-left {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 10px 20px 0 24px;
+	text-align: left;
+}
+
+.fruit1 .content-right {
+	position: relative;
+	float: left;
+	width: 330px;
+	text-align: left;
+	padding-bottom: 0;
+}
+
+.fruit1 .content-right h2 {
+	margin-top: 20px;
+}
+
+.fruit1 .content-right ul {
+	color: #333123;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-top: 10px;
+}
+
+.fruit1 .content-right ul li {
+	margin-bottom: 7px;
+}
+
+.fruit1 .content-fullpg {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 770px;
+	text-align: center;
+	background-color: #fff;
+	margin: 0 5px;
+}
+
+.fruit1 .top  {
+	clear: both;
+	position: relative;
+	float: left;
+	background: url(../images/fruit1/midbanner_bg.jpg) top center no-repeat;
+	/*height: 380px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 790px;
+}
+
+.fruit1 .bottom  {
+	clear: both;
+	position: relative;
+	float: left;
+	background: url(../images/fruit1/bg_bottom.jpg) top center repeat-y;
+	/*height: 380px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 790px;
+}
+
+.fruit1 .bottom-row {
+	clear: both;
+	padding-top: 10px;
+}
+
+.fruit1 .content-col1 {
+	position: relative;
+	float: left;
+	width: 290px;
+	text-align: left;
+	padding-right: 5px;
+	font-size: 14px;
+}
+
+.fruit1 .content-col2 {
+	position: relative;
+	float: left;
+	width: 270px;
+	text-align: left;
+	padding-right: 10px;
+	font-size: 14px;
+}
+
+.fruit1 .content-col2 ul {
+	color: #683d1a;
+}
+
+.fruit1 .content-col3 {
+	position: relative;
+	float: left;
+	width: 205px;
+} 
+
+.fruit1 .online {
+	color: #5c2946;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	padding: 0 40px;
+	font-family: Arial, Helvetica, sans serif;
+}
+
+.fruit1 .action {
+	font-size: 28px;
+	color: #679146;
+	line-height: 1em;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.fruit1 .feelgood {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 24px;
+	line-height: 1.2em;
+	margin-bottom: -5px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.fruit1 .artisan {
+	color: #683d1a;
+	font-style: italic;
+	font-size: 21px;
+	line-height: 1.3em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 13px 55px;
+}
+
+.fruit1 .small {
+	font-size: 80%;
+}
+
+.fruit1 .guarantee {
+	color: #f3901d;
+	font-size: 22px;
+	font-style: italic;
+	line-height: 1em;
+	margin-top: 10px;
+}
+
+.fruit1 .promo {
+	font-weight: bold;
+	font-size: 90%;
+	margin-top: 0;
+	margin-bottom: 5px;
+	line-height: 1.3em;
+	font-family: Arial, Helvetica, sans serif;
+}
+
+.fruit1 .tight {
+	letter-spacing: -1px;
+}
+
+.fruit1 #footer {
+	clear: both;
+	position: relative;
+	float: left;
+	width: 750px;
+	text-align: left;
+	background-color: #fff;
+	margin: 0 0 30px 30px;
+	color: #333123;
+}
+
+.fruit1 #footer img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.fruit1 #footer p {
+	line-height: 1.5em;
+	font-size: 13px;
+}
+
+.fruit1 #footer a {
+	color: #5c2946;
+}
+
+.fruit1 #footer a:hover {
+	color: #679146;
+}
+
+.fruit1 .footer-links {
+	text-align: center;
+	font-size: 12px;
+	padding-top: 20px;
+}
+	
+
+
+

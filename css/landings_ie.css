@@ -1,0 +1,62 @@
+/* ie exceptions for landing pages */
+
+
+/* ******** Online Grocery 1 ******** */
+
+.grocery1 #banner {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 169px;
+	text-align: center;
+	background: url(../images/grocery1/banner.jpg) top right no-repeat;
+	text-align: left;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.grocery1 .content-left {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 0 20px 20px 30px;
+	text-align: left;
+	background-color: #fff;
+}
+
+
+
+/* ******** Meats 1 ******** */
+
+.meats1 .content-left {
+	position: relative;
+	float: left;
+	width: 400px;
+	padding: 10px 20px 20px 30px;
+	text-align: left;
+}
+
+.meats1 .action {
+	font-size: 28px;
+	color: #679146;
+	line-height: 1em;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.meats1 #bottom  {
+	clear: both;
+	position: relative;
+	float: none;
+	background: url(../images/meats1/bg_bottom.jpg) top center no-repeat;
+	height: 380px;
+	padding-top: 10px;
+}
+
+.meats1 .content-right h2 {
+	margin-top: 10px;
+}
+
+.meats1 #bottom .content-right {
+	padding: 25px 0 40px 0;
+}
